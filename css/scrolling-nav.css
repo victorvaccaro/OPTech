@@ -37,9 +37,14 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
+.navbar-default{
+    background-color: #002546;
+    border-color: #002546; 
+}
+
 .intro-section {
     height: auto;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
     font-family: ralewayLight;
@@ -324,8 +329,8 @@ of those sections to manage the look and feel of the site. */
 /* ------------------- Carousel Styling ------------------- */
 
 .carousel-inner {
-  border-radius: 15px;
-  border-style: dotted;
+  /*border-radius: 15px;
+  border-style: dotted;*/
 }
 
 .carousel-caption {
@@ -476,10 +481,16 @@ of those sections to manage the look and feel of the site. */
 /**** Navigtion ****/
 
 .navbar li a {
-    color: #002546 !important;
+    color: #fff !important;
     line-height: 1.7em;
     font-size: larger;
 }
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent;
+ }
 
 /**** End of Navigtion ****/
 
