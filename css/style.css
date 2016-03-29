@@ -10,6 +10,50 @@
 .pointeur:hover:first-child{
 	color:#88C425;
 }
-.cache{
-	display: none;
+.w100{
+	width: 100%;
+}
+.w90{
+	width: 90%;
+}
+.h100{
+	height: 100%;
+}
+.h90{
+	height: 90%;
+}
+.pm0{
+	padding: 0;
+	margin: 0;
+}
+.c1{
+	border:1px solid red;
+	width: 100%;
+	height: 100%;
+}
+.c2{
+	width: 100%;
+	height: 100%;
+}
+.fondBlanc{
+	background-color: #fff;
+}
+#nomPersonne{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0px 10px;
+	padding-top: 10px;
+}
+#descriptionPersonne{
+	padding: 0px 30px;
+}
+.divFleche{
+	height: 100%;
+	display: table;
+}
+.divFleche .fleche{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 4em;
 }
