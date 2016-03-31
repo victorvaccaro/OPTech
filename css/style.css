@@ -118,3 +118,43 @@ h6.description{
 .flex{
 	display: flex;
 }
+
+.caroussel-class{
+	padding-right: 0px; 
+	padding-left: 0px; 
+	width: 100%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+        width:100%;
+    }
+    .center-carousel
+    {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    float: none;
+    }
+
+ .groupe-title{
+ 	text-transform: uppercase; 
+ 	font-weight: bold; 
+ 	color:#002546;
+ }
+
+ /* Small Devices, Tablets */
+
+    @media only screen and (max-width : 768px) {
+    	.img-checklist,.caroussel-class, .gmap-class{
+    		display: none;
+    	}
+
+    	.groupe-title{
+    		font-size: 20px;
+    	}
+
+    	.ce-que-nous-proposons{
+    		font-size: 20px;
+    		text-align: center;
+    	}
+    }

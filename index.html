@@ -27,20 +27,6 @@
     <![endif]-->
 
 </head>
-
-<style>
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
-        width:100%;
-    }
-    .center-carousel
-    {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    float: none;
-    }
-</style>
-
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -96,7 +82,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <section class="section-white">
-                      <div class="container">
+                      <div class="container caroussel-class">
 
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                           <!-- Indicators -->
@@ -141,7 +127,7 @@
                     </section>
 
                     <div class="col-md-12 col-sm-12 col-xs-12" style="font-family: 'RalewayLight'"> 
-                        <h2 style="text-transform: uppercase; font-weight: bold; color:#002546; ">
+                        <h2 class="groupe-title">
                             Groupe d'élèves ingénieurs motivés et dynamiques
                         </h2>
                         <div style="text-transform: uppercase;">
@@ -206,7 +192,7 @@
         <h6 class="description">NOTRE PROJET</h6>
             <div class="row first-part">
                 <div class="col-md-8 col-sm-8 col-xs-12">
-                    <h1>CE QUE NOUS PROPOSONS</h1><br/><br/>
+                    <h1 class="ce-que-nous-proposons">CE QUE NOUS PROPOSONS</h1><br/><br/>
                     Dans le cadre de notre formation IG2I de l’école d’ingénieur l’IG2I, nous sommes amenés à travailler dans un projet d’envergure professionnelle.<br/>
                     <h3><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> NOS LIVRABLES</h3>
                     <p>Pour ce projet nous rédigerons, le cahier des charges, le dossier de spécifications générales, une étude de marché, l’estimation de la charge, du budget, du planning, et des ressources du projet réel.</p>
@@ -216,7 +202,7 @@
                     <p>Notre formation en apprentissage nous procure une expérience professionnelle qui nous permettra de travailler efficacement sur le projet que vous nous confierez. Chacun de nous a évolué dans des entreprises distinctes, qui utilisent des méthodes de travail variées. Cette diversité sera un réel avantage sur la qualité des livrables finaux.</p>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <img src="img/checklist.png" style="width:100%; height:100%;"/>
+                    <img src="img/checklist.png" class="img-checklist" style="width:100%; height:100%;"/>
                 </div>
             </div>
             <div class="row grid-divider">
@@ -346,7 +332,7 @@
         <div class="container">
         <h6 class="description">CONTACT</h6>
             <div class="row flex">
-              <div class="col-md-4">
+              <div class="col-md-4 col-xs-12">
                   <div class="container" style="width:100%;">
                       <div class="heading">
                       </div>
@@ -371,7 +357,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-8 flexCenter">
+              <div class="gmap-class col-md-8 col-xs-12 flexCenter">
                   <!-- DIV G MAP-->
                 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:550px;'><div id='gmap_canvas' style='height:400px;width:550px;'></div><div><small><a href="http://embedgooglemaps.com">                                  embed google maps                           </a></small></div><div><small><a href="http://www.autohuren.world/">auto huren</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(50.43592690000001,2.823242499999992),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.43592690000001,2.823242499999992)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>lens 13 rue jean souvraz<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
               </div>
