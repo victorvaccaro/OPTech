@@ -1,15 +1,6 @@
 .pointeur{
 	cursor: pointer;
 }
-.pointeur:hover{
-	border-color: #fff;
-}
-.pointeur:first-child{
-	color:#fff;
-}
-.pointeur:hover:first-child{
-	color:#88C425;
-}
 .w100{
 	width: 100%;
 }

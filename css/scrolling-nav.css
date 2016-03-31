@@ -44,7 +44,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: auto;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     background: #fff;
     font-family: ralewayLight;
@@ -52,14 +52,14 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: auto;
-    padding-top: 150px;
+    padding-top: 60px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
     height: auto;
-    padding-top: 150px;
+    /*padding-top: 150px;*/
     text-align: center;
     background: #fff;
 }
@@ -73,7 +73,7 @@ of those sections to manage the look and feel of the site. */
 
 .projet-section {
     height: auto;
-    padding-top: 150px;
+    padding-top: 60px;
     background: #fff;
 }
 
